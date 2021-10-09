@@ -1,9 +1,7 @@
 package com.nima.parperstatement;
 
-import com.nima.bean.Customer;
 import com.nima.bean.Order;
 import com.nima.utils.JDBCUtils;
-import com.sun.tools.corba.se.idl.constExpr.Or;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
@@ -13,7 +11,6 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.ObjIntConsumer;
 
 public class PreparedStatementQueryTest {
 

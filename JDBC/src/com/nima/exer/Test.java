@@ -61,7 +61,7 @@ public class Test {
         }
         List<Student> list = getForTestList(Student.class, sql,res);
         System.out.println("=============查询结果==============");
-        System.out.println(list.);
+//        System.out.println(list.);
 
     }
 
